@@ -10,12 +10,15 @@ const Home = () => {
           <header className="App-header">
             <h1 classname="line">Hello! My name is Richard.</h1>
             <h1>Playing guitar is a passion of mine.</h1>
-            <p>You probably already know that, if not well I got a little story for you.</p>
+            <p>You probably already know that, if not well I got a little story for you.</p>    
+            
+            <img src={book} height="450" width="450" />
+            <br />
             <br/>
-            <img src={book} height="400" width="400" />
+            <br/> 
             <br/>
-            <br/>
-            <br/>    
+            <br/> 
+            
           </header>
         </div>
     )
