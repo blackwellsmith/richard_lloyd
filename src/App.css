@@ -2,14 +2,17 @@
   text-align: center;
 }
 .navbar {
-  font-family: Courier New, monospace;
-  background-image: linear-gradient(-90deg, blue, black);
+  font-family: "Lucida Console", Monaco, monospace;
+  background-image: linear-gradient(-90deg, rgb(4, 4, 70), black);
 }
 .App-logo {
   height: 10vmin;
   pointer-events: none;
 }
 
+.title {
+  font-size: 40px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -18,8 +21,8 @@
 }
 
 .App-header {
-  font-family: Courier New;
-  background-image: linear-gradient(to bottom right, black, blue, black );
+  font-family: "Lucida Console", Monaco, monospace;
+  background-image: linear-gradient(to bottom right, black, rgb(4, 4, 70), black );
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -29,12 +32,7 @@
   color: white;
 }
 
-html, .gallery {
-  font-family: Courier New;
-  font-size: 20px;
-  color: white;
-  background-image: linear-gradient(to bottom right, black, blue, black ); 
-}
+
 
 
 

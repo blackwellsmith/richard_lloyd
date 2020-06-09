@@ -6,7 +6,7 @@ import { Nav, Navbar } from 'react-bootstrap'
 const Navigation = () => {
     return (
         <Navbar classname="navbar" expand="lg" variant="dark">
-            <Navbar.Brand href="/"><span><img src={hat} className="App-logo" alt="logo" /></span></Navbar.Brand>
+            <Navbar.Brand href="/">Richard Lloyd</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
