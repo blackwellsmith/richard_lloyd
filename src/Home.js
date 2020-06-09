@@ -14,7 +14,7 @@ const Home = () => {
             <br/>
             <img src={book} height="400" width="400" />
             <br/>
-            <img src={hat} className="App-logo" alt="logo" />
+            <br/>
             <br/>    
           </header>
         </div>

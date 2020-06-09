@@ -7,7 +7,11 @@ const Images = () => {
         <div classname="App">
             <header className="App-header">
                 <h1>Gallery</h1>
-               <img src={image} />
+                <img src={image} />
+                <br/>
+                <br/>
+                <br/>
+                <br/>
             </header>    
         </div>
     )
