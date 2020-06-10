@@ -1,5 +1,4 @@
 import React from 'react'
-import hat from './hat.png';
 import './App.css';
 import { Nav, Navbar } from 'react-bootstrap'
 
@@ -12,6 +11,7 @@ const Navigation = () => {
                 <Nav className="ml-auto">
                     <Nav.Item><Nav.Link href="/">Home</Nav.Link></Nav.Item>
                     <Nav.Item><Nav.Link href="/gallery">Gallery</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link href="/discography">Discography</Nav.Link></Nav.Item>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
