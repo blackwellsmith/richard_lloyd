@@ -19,9 +19,9 @@ const Home = () => {
                         <Col><img src={oldschool} width="350" height="472.3" /></Col>
                         <Col><img src={richard} width="315" height="472.3" /></Col>
                         <Col><img src={eighties} width="350" height="472.3" /></Col>
-                    </Row>    
+                    </Row> 
+                    <br/>
                     </Container>
-                <br/>
             </header>    
         </div>
     )
