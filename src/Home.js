@@ -16,9 +16,9 @@ const Home = () => {
                 <p></p> 
                     <Container>
                     <Row>
-                        <Col className="homeImage"><img src={oldschool} width="350" height="472.3" /></Col>
-                        <Col className="homeImage"><img src={richard} width="315" height="472.3" /></Col>
-                        <Col className="homeImage"><img src={eighties} width="350" height="472.3" /></Col>
+                        <Col className="homeImage"><img className="pic" src={oldschool} width="350" height="472.3" /></Col>
+                        <Col className="homeImage"><img className="pic" src={richard} width="315" height="472.3" /></Col>
+                        <Col className="homeImage"><img className="pic" src={eighties} width="350" height="472.3" /></Col>
                     </Row> 
                     </Container>
             </header>    

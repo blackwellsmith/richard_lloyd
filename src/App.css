@@ -29,7 +29,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(238, 227, 227);
 }
 
 
@@ -63,4 +63,8 @@
 
 .homeImage {
   margin-bottom: 20px;
+}
+
+.pic {
+   border: 1px solid rgb(218, 205, 205);
 }

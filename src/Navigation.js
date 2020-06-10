@@ -9,9 +9,9 @@ const Navigation = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
-                    <Nav.Item><Nav.Link href="/">Home</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href="/gallery">Gallery</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href="/discography">Discography</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link href="/">home</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link href="/discography">discography</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link href="/gallery">gallery</Nav.Link></Nav.Item>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
