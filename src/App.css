@@ -23,7 +23,7 @@
 .App-header {
   font-family: "Lucida Console", Monaco, monospace;
   background-image: linear-gradient(to bottom right, black, rgb(4, 4, 70), black );
-  min-height: 100vh;
+  min-height: 85vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -58,4 +58,9 @@
   background-color: black;
   color: white;
   height: 60px;
+  padding: 10px 20px;
+}
+
+.homeImage {
+  margin-bottom: 20px;
 }
