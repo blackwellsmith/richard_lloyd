@@ -52,7 +52,7 @@
 .footer {
   font-family: "Lucida Console", Monaco, monospace;
   flex-shrink: 0;
-  text-align: center;
+  text-align: right;
   align-items: center;
   justify-content: center;
   background-color: black;
