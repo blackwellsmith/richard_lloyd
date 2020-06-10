@@ -1,5 +1,10 @@
 import React from 'react'
 import richard from './richard.png';
+import oldschool from './oldschool.png';
+import eighties from './eighties.png';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import './App.css';
 
 
@@ -7,11 +12,16 @@ const Home = () => {
     return (
         <div className="App">
             <header className="App-header">
-            <h1>Richard Lloyd: Alchemical Guitarist</h1>
-            <p></p>    
-            <img src={richard} width="420" height="630" />
-            <br/>
-            <br/>
+                <h1>Richard Lloyd: Alchemical Guitarist</h1>
+                <p></p> 
+                    <Container>
+                    <Row>
+                        <Col><img src={oldschool} width="350" height="472.3" /></Col>
+                        <Col><img src={richard} width="315" height="472.3" /></Col>
+                        <Col><img src={eighties} width="350" height="472.3" /></Col>
+                    </Row>    
+                    </Container>
+                <br/>
             </header>    
         </div>
     )
