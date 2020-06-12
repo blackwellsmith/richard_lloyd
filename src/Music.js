@@ -13,8 +13,6 @@ const Music = () => {
         <div className="App">
             <header className="App-header">
                 <hr/>
-                <h1>discography</h1>
-                <hr/>
                 <Container>
                     <Row>
                 <Col>
