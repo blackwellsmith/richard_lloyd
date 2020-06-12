@@ -68,3 +68,10 @@
 .pic {
    border: 1px solid rgb(218, 205, 205);
 }
+.card {
+  border: 1px solid rgb(218, 205, 205);
+  color: rgb(218, 205, 205);
+  width: 302px;
+  height: 602px;
+  background-image: linear-gradient(to bottom right, black, rgb(4, 4, 70), black );
+}
